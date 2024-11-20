@@ -1,21 +1,21 @@
 ﻿body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
 header {
-    background: #0073e6;
+    background-color: crimson;
     color: white;
     padding: 1rem 0;
     text-align: center;
+    font-family: Georgia;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    background: #333;
+    background-color: dimgray;
     overflow: hidden;
 }
 
@@ -30,13 +30,15 @@ nav ul {
             padding: 10px 15px;
             display: inline-block;
             color: white;
+            font-family: Cambria;
         }
 
             nav ul li a:hover {
-                background: #0073e6;
+                background-color: lightgray;
             }
 
 section {
     padding: 20px;
     margin: 20px;
+    font-family: sans-serif;
 }
